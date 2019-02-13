@@ -20,8 +20,11 @@ class ProductList extends Component {
             <Title name="bike" title="parts" />
             <div className="row">
             <ProductConsumer>
-                {hello=>{
-return <h1>{hello}</h1>;
+                {value=>{
+                    return value.products.map( product =>{
+                        return <Product key={product.id} product=
+                        {product}  />;
+                    })
                 }}
             </ProductConsumer>
             </div>
