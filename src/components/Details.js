@@ -37,7 +37,7 @@ text-slanted text-blue my-5"
               </div>
 {/* product text */}
           <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-            <h1>Item : {title}</h1>
+            <h1> {title}</h1>
             <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
             Brand : <span className="text-uppercase">
             {company}</span>
@@ -49,7 +49,7 @@ text-slanted text-blue my-5"
             </strong>
             </h4>
             <p className="text-capitalize font-weight-bold mt-3 mb-0">
-            info about this item :
+            product info :
             </p>
             <p className="text-muted lead">{info}</p>
             {/* buttons */}
